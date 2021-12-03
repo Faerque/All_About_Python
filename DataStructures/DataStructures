@@ -1,0 +1,41 @@
+In python there are two category's of Data Structures available.
+
+# Built In:
+1. List
+2. Tuple
+3. Set
+4. Dictionary
+
+# User Defined:
+1. Stack
+2. Queue
+3. Linked List
+4. Tree
+5. Graph
+
+# List:
+1. We can store different types of data in list. it can be int or string.
+2. List maintained its order.
+3. List can be access using indexing. ex: List = [0]
+4. Negative indexing in list gives previous values of called index. ex: [-2]
+5. List can be nested. means we declare different value in one list. ex: [[1,3], 1,4]
+6. List are dynamic. Though, its mutable, value will shrinks after delete or add
+
+# Tuple:
+1. Similar to list which also store data.
+2. To declare tuple value we have to use parentheses and for single value we have to comma after the value. ex: tuple = (1,)
+3. We can't change or modify tuple after creating it.We can't insert element neither delete any element or value.
+4. We use tuple because its faster then Lists and it can't be modified.
+
+# Dictionary:
+1. Dictionary is for storing data using values in key and values key:values pairs bounded with second bracket. ex: dic = {"x": 1, "y":2}
+2. Keys and values are spread by colon and each pair of keys and values spread by comma.
+3. Keys must be constant but values can be change.
+4. From Python version 3.7, dictionaries are ordered but it was unordered in Python 3.6 and earlier.
+5. It can't be nested.
+
+# Sets:
+1. Its a collection of unique elements. We can't have duplicate values in sets.
+2. If we use duplicate value it will ignore that value.
+3. Sets can contain only immutable types value.
+4. Sets can't be nested.
