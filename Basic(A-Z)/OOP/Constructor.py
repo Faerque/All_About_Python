@@ -17,5 +17,6 @@ point = Teacher(1, 2)
 print(point.default_color)
 point.draw()
 
+
 another = Teacher(3, 4)
 another.draw()
